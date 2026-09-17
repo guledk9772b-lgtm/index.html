@@ -1,0 +1,135 @@
+```css
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #222;
+    color: white;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Descendant selector */
+.add-expense-section input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Negation pseudo-class */
+input:not([type="submit"]) {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+/* Focus pseudo-class */
+input:focus {
+    outline: 2px solid #555;
+}
+
+/* Select dropdown */
+select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+/* Direct child selector */
+.add-expense-section > h2 {
+    margin-top: 0;
+}
+
+/* Button */
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+/* Expense table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Descendant selector */
+.expenses-section td,
+.expenses-section th {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Colored table header */
+thead {
+    background-color: #ddd;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Table row hover */
+tbody tr:hover {
+    background-color: #e6e6e6;
+}
+
+/* Details section */
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Video */
+iframe {
+    max-width: 100%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+```
